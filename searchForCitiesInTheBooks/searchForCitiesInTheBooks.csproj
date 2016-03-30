@@ -37,6 +37,10 @@
       <HintPath>..\packages\epubReader.1.0.0\lib\net40\eBdb.EpubReader.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="FuzzyString, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FuzzyString.1.0.0\lib\FuzzyString.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
       <HintPath>..\packages\epubReader.1.0.0\lib\net40\Ionic.Zip.dll</HintPath>
       <Private>True</Private>
