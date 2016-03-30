@@ -91,23 +91,9 @@ namespace searchForCitiesInTheBooks
                 }
 
                 File.WriteAllLines(path, cities);
+                File.WriteAllText(path, "\n");
                 File.WriteAllLines(path, cities);
             }
-
-
-
-
-
-
-            string source = "Китай";
-            string target = "Китае";
-
-            bool result = source.ApproximatelyEquals(target, options, tolerance);
-            
-            Console.WriteLine(result);
-
-            //string[] cities = File.ReadAllLines(args[1]);
-            //string[] countries = File.ReadAllLines(args[2]);
 
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
